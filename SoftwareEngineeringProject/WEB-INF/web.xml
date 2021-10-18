@@ -1,0 +1,232 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+        
+    </servlet-mapping>
+    
+    
+       <servlet>
+        <servlet-name>CheckLogin</servlet-name>
+        <servlet-class>CheckLogin</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>CheckLogin</servlet-name>
+        <url-pattern>/CheckLogin</url-pattern>
+    </servlet-mapping>
+    
+           <servlet>
+        <servlet-name>ConnectionUtils11</servlet-name>
+        <servlet-class>ConnectionUtils11</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ConnectionUtils11</servlet-name>
+        <url-pattern>/ConnectionUtils11</url-pattern>
+    </servlet-mapping>
+    
+            <servlet>
+        <servlet-name>Utils</servlet-name>
+        <servlet-class>Utils</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>Utils</servlet-name>
+        <url-pattern>/Utils</url-pattern>
+    </servlet-mapping>
+    
+               <servlet>
+        <servlet-name>MainPrincipal</servlet-name>
+        <servlet-class>MainPrincipal</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>MainPrincipal</servlet-name>
+        <url-pattern>/MainPrincipal</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>DoctorList</servlet-name>
+        <servlet-class>DoctorList</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorList</servlet-name>
+        <url-pattern>/DoctorList</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>DoctorData</servlet-name>
+        <servlet-class>DoctorData</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorData</servlet-name>
+        <url-pattern>/DoctorData</url-pattern>
+    </servlet-mapping>
+    
+    
+        <servlet>
+        <servlet-name>DepartmentData</servlet-name>
+        <servlet-class>DepartmentData</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DepartmentData</servlet-name>
+        <url-pattern>/DepartmentData</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name>DepartmentList</servlet-name>
+        <servlet-class>DepartmentList</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DepartmentList</servlet-name>
+        <url-pattern>/DepartmentList</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DoctorView</servlet-name>
+        <servlet-class>DoctorView</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorView</servlet-name>
+        <url-pattern>/DoctorView</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>DoctorSpecialtyData</servlet-name>
+        <servlet-class>DoctorSpecialtyData</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorSpecialtyData</servlet-name>
+        <url-pattern>/DoctorSpecialtyData</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>DoctorDepartmentData</servlet-name>
+        <servlet-class>DoctorDepartmentData</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorDepartmentData</servlet-name>
+        <url-pattern>/DoctorDepartmentData</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>DoctorDepartment</servlet-name>
+        <servlet-class>DoctorDepartment</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorDepartment</servlet-name>
+        <url-pattern>/DoctorDepartment</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DoctorPatients</servlet-name>
+        <servlet-class>DoctorPatients</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorPatients</servlet-name>
+        <url-pattern>/DoctorPatients</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>DoctorPatientsData</servlet-name>
+        <servlet-class>DoctorPatientsData</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorPatientsData</servlet-name>
+        <url-pattern>/DoctorPatientsData</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DepartmentView</servlet-name>
+        <servlet-class>DepartmentView</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DepartmentView</servlet-name>
+        <url-pattern>/DepartmentView</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DepartmentDoctors</servlet-name>
+        <servlet-class>DepartmentDoctors</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DepartmentDoctors</servlet-name>
+        <url-pattern>/DepartmentDoctors</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>DepartmentDoctorsData</servlet-name>
+        <servlet-class>DepartmentDoctorsData</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DepartmentDoctorsData</servlet-name>
+        <url-pattern>/DepartmentDoctorsData</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>DoctorEdit</servlet-name>
+        <servlet-class>DoctorEdit</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorEdit</servlet-name>
+        <url-pattern>/DoctorEdit</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>DoctorUpdate</servlet-name>
+        <servlet-class>DoctorUpdate</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DoctorUpdate</servlet-name>
+        <url-pattern>/DoctorUpdate</url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+        <servlet-name>DepartmentEdit</servlet-name>
+        <servlet-class>DepartmentEdit</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DepartmentEdit</servlet-name>
+        <url-pattern>/DepartmentEdit</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>DepartmentUpdate</servlet-name>
+        <servlet-class>DepartmentUpdate</servlet-class>
+    </servlet>
+    
+        <servlet-mapping>
+        <servlet-name>DepartmentUpdate</servlet-name>
+        <url-pattern>/DepartmentUpdate</url-pattern>
+    </servlet-mapping>
+    
+    </web-app>
+
+
+
+
+
