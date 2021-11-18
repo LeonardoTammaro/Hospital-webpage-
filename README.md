@@ -1,6 +1,7 @@
 # Hospital-webpage-
 
 Objectives: 
+
 •	Use of the tomcat server. 
 
 •	Elaboration of the hospital database. 
